@@ -1,0 +1,326 @@
+.main-form{
+    border: 1px solid black;   
+    
+}
+.poto{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    border: 1px solid black;
+}
+.sign{
+    border: 1px solid black;
+    border-top: none;;
+    text-align: left;
+    padding: 1em;
+    font-size: 13px;
+    font-weight: 600;
+}
+.header{
+    padding: 0.5em;
+}
+.form-heading {
+    text-align: center;
+    font-size: 17px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.small{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+.assesing {
+    text-align: left;
+    background-color: #dedede;
+    line-height: 2em;
+}
+.bg{
+    text-align: left;
+    background-color: #dedede;
+    line-height: 2em;
+    margin-bottom: 8px;
+}
+.bg-head {
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 2%;
+}
+.content {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.content-inside th,p,div,td {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: justify;
+}
+.input-box{
+    width: 2.5em;
+    height: 2.5em;
+    text-align: center;
+}
+.space{
+    width: 4%;
+}
+.guard {
+    font-size: 20px;
+}
+.input-box-state{
+    height: 2.5em;
+    width: 36.3em;
+    text-align: left;
+}
+.input-box-email {
+    height: 2.5em;
+    width: 67em;
+}
+.sub-head{
+    height: 2.5em;
+    width: 28.3em;
+    text-align: left;    
+}
+.label-box{
+    width: 1.4em;
+    display: inline-block;
+    text-align: center;
+    height: 1.5em;
+}
+.instru{
+    border: 1px solid white;
+    text-align: justify;
+    margin-top: 2em;
+}
+.instru-points{
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 2%;
+    word-spacing: 9px;
+    line-height: 2em;
+}
+.table-style{
+    border: 1px solid black;
+    line-height: 1.5em;
+}
+.instru-table{
+    border-collapse: collapse;
+    margin-bottom: 1%;
+}
+.instru-table thead{
+    text-align: center;
+}
+.instru-input-box{
+    width: 1.80em;
+    height: 2.7em;
+    text-align: center;
+    border: 1px solid grey;
+    font-size: 18px;
+}
+.instru-input-box-head{
+    background-color: #dedede;
+    width: 8.5em;
+    height: 2.7em;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid grey;
+    font-weight: 600;
+}
+.date-table {
+    width: 6%;
+    text-align: center !important;
+}
+.column-ins {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    
+  }
+  .row-ins:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .asses-code {
+    height: 2.5em;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 7em;
+}
+.asses-code-big {
+    height: 2.5em;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 10.5em;
+}
+.input-box-asses{
+    width: 4.2em;
+    height: 2.5em;
+    text-align: center;
+}
+.signature{
+    border: 1px solid black;
+    margin-left: -7.8em;
+    width: 21.5em;
+    font-size: 14px;
+    text-align: center;
+    border-top: unset;
+}
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 19px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: left;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: -3px;
+    left: 0;
+    height: 29px;
+    width: 29px;
+    background-color: white;
+    border: 1px solid grey;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+    top: 3px;
+    left: 1px;
+    background: url("https://i.pinimg.com/originals/72/bc/c0/72bcc094f146262fc26464c300253c87.jpg") no-repeat;
+    height: 2em;
+    width: 2em;
+    background-size: 69%;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  tabspace{
+      padding-right: 7%;
+  }
+  tabspacesmall{
+      padding-right: 4%;
+  }
+
+  td
+{
+    padding:0 8px;
+}
+.sign-form {
+    margin-left: 11em;
+}
+.pan{
+    padding: 8px 8px;
+}
+linebreak{
+    display: block;
+    margin-bottom: 14px;
+}
+linebreak-nospace{
+    display: block;
+}
+tabspacemini{
+    padding-right: 1%;
+}
+.checkbox-head{
+    top:4px;
+}
+.diplay-sameline{
+    display: inline-block;
+}
+.header-bottom{
+    margin-left: 1.5%;
+}
+.bottom-space{
+    margin-bottom: 8px;
+}
+.display-flex{
+    display: inline-flex;
+}
+.empty-checkbox{
+    margin-top: -17px;
+}
+.align-center{
+    text-align: center;
+}
+.right-border{
+    border: 1px solid white;
+    border-right-color: black;
+}
+.bg-black{
+    background-color: black;color:white;
+}
+.note-height{
+    height: 19em;
+}
+.height-copy{
+    height: 46em;
+}
+.left{
+    margin-left:2em;
+}
+.no-space{
+    margin: 0;
+}
+.size-15-column{
+    width: 15%;
+    float: left;
+}
+.size-70-column{
+    width: 70%;
+    float: left;
+}
+.sign-box {
+    height: 129px;
+    border: 1px solid black;
+    margin-left: -7.8em;
+    width: 21.5em;
+    font-size: 14px;
+    text-align: center;
+}
+.header-form-heading{
+    width: 30em;
+    margin-top: 16%;
+}
+.no-bottom-space{
+    margin-bottom: unset;
+}
